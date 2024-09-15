@@ -1,0 +1,7 @@
+{
+    "extends": "@andrao/tsconfig/base.json",
+    "compilerOptions": {
+        "tsBuildInfoFile": "node_modules/.cache/tsbuildinfo.json"
+    },
+    "exclude": ["node_modules"]
+}

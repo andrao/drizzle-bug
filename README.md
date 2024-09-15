@@ -6,7 +6,7 @@ This repository reproduces the bug described in https://github.com/drizzle-team/
 
 1. Set database credentials in _src/db-credentials.ts_.
 2. Start MySQL server.
-3. Run `pnpm db:push` to push tables to databases.
+3. Run `pnpm db:push` to push tables to the database.
 4. Run `pnpm start` to run the script at _src/index.ts_.
 
 
@@ -50,3 +50,7 @@ const faulty_response = await db
 console.log('proper_response:', proper_response); // { id: 1 }
 console.log('faulty_response:', faulty_response); // { name: 1 }
 ```
+
+### Screencap
+
+https://github.com/user-attachments/assets/3be9535e-696c-46b0-b48c-a7d60d0f1d2f
